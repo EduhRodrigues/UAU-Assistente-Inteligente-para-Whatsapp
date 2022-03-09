@@ -113,12 +113,13 @@ Fazer Deploy pelo Visualcode:
 
 1 - comando: firebase projects:list
 
+```
 ┌──────────────────────┬────────────────────┬────────────────┬──────────────────────┐
 │ Project Display Name │ Project ID         │ Project Number │ Resource Location ID │
 ├──────────────────────┼────────────────────┼────────────────┼──────────────────────┤
 │ wow-kaht             │ wow-kaht (current) │ 455679832516   │ [Not specified]      │
 └──────────────────────┴────────────────────┴────────────────┴──────────────────────┘
-
+``` 
 2 - Copie o Project ID do protejo. Neste caso: wow-kaht (current)
 
 3 - Entre no arquivo package.json e encontre:
