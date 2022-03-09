@@ -22,44 +22,7 @@
 </details>
 
 
-### Fazer Deploy pelo Visualcode:
+### 
 
-#### 1 - comando: firebase projects:list
-
-```
-┌──────────────────────┬────────────────────┬────────────────┬──────────────────────┐
-│ Project Display Name │ Project ID         │ Project Number │ Resource Location ID │
-├──────────────────────┼────────────────────┼────────────────┼──────────────────────┤
-│ wow-kaht             │ wow-kaht (current) │ 455679832516   │ [Not specified]      │
-└──────────────────────┴────────────────────┴────────────────┴──────────────────────┘
-``` 
-2 - Copie o Project ID do protejo. Neste caso: wow-kaht (current)
-
-3 - Entre no arquivo package.json e encontre:
-
-"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
-
-4 - Adicione lá final, dentro das aspas, o seguinte:
-
---ProjectID
-
-ProjectID é o que foi copiado anteriormente. Apenas cole, ou digite.
-
-Neste caso fica assim: 
-
-"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project wow-kaht (current)"
-
-5 - Salve o arquivo.
-
-6 - comando: npm run deploy
-PS C:\...\Project_Whats-WOW> 
-
-Pronto. Deploy concluído com sucesso.
-
-Para conferir, veja as alterações feitas no Visualcode alteradas
-no Inline Editor do Dialogflow.
-
-Se o deploy ocorreu com suceeso,
-aparece uma URL no Webhook do Fulfillment, como esta:
-
-https://us-central1-wow-kaht.cloudfunctions.net/dialogflowFirebaseFulfillment
+###### <details><summary>``` Deploy no Visualcode: ```</summary><br>1 - comando: firebase projects:list<br>Project Display Name │-----------Project ID   │ Project Number │ Resource Location ID<br>-------------wow-kaht │ wow-kaht (current) │ 455679832516   │ [Not specified]<br>2 - Copie o Project ID do protejo. Neste caso: wow-kaht (current)<br>3 - Entre no arquivo package.json e encontre:<br>"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"<br>4 - Adicione lá final, dentro das aspas, o seguinte:<br>--ProjectID<br>ProjectID é o que foi copiado anteriormente. Apenas cole, ou digite.<br>Neste caso fica assim:<br>"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project wow-kaht (current)"<br>5 - Salve o arquivo.<br>6 - comando: npm run deploy<br>PS C:\...\Project_Whats-WOW><br>Pronto. Deploy concluído com sucesso.<br>Para conferir, veja as alterações feitas no Visualcode alteradas<br>no Inline Editor do Dialogflow.<br>Se o deploy ocorreu com suceeso,<br>aparece uma URL no Webhook do Fulfillment, como esta:<br>https://us-central1-wow-kaht.cloudfunctions.net/dialogflowFirebaseFulfillment<br></a> 
+</details>
