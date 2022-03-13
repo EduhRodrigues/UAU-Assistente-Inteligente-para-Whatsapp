@@ -144,4 +144,6 @@ Webhook call failed. Error: UNAVAILABLE, State: URL_UNREACHABLE, Reason: UNREACH
 
 Link para testar o assistente: https://abre.ai/waw-assistente-inteligente
 
-Obrigado pela oportunidade e parabén pelo post,mais uma vez.
+Se alguém puder me ajudar, eu agradeço imensamente.
+
+Obrigado pela oportunidade e parabéns pelo post, mais uma vez.
