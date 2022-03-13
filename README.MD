@@ -1,7 +1,9 @@
-# Projeto: Whats WOW - Intelligent Whatsapp Assistant
+# Projeto: UAU! - Assistente Inteligente para Whastsapp
 ###### ⚠️status: Developing <br> 
 
-###### Link para teste/simulação: https://abre.ai/waw-assistente-inteligente
+###### Teste o UAU! Assistente Inteligente por este link: https://abre.ai/waw-assistente-inteligente
+
+<img src="https://storage.cloud.google.com/us.artifacts.wow-xesv.appspot.com/index_UAU.jpeg"></img>
 
 ###### <details><summary>``` O que é este projeto: ```</summary><br> Este projeto consiste em um agente de resposta automática por Whatsapp, com as seguintes funções:<br><br>Atender o Cliente: Dar as boas vindas e mostrar as opções;<br>Anotar o nome do cliente;<br>Anotar ítem do pedido: Ítem e quantidade na comanda;<br>Somar o valor do ítem;<br>Calcular o Pedido: Somar os valores dos ítens da comanda;<br>Obter dados para entrega: Endereço completo e Contato alternativo;<br>Confirmar o Pedido;<br>Formatar o Pedido estilo Cupom Fiscal;<br>Acompanhar a Entrega;<br>Finalizar Atendimento;<br>Pós Venda;<br>Localização por IP;<br>Endereço por CEP;<br>Novas idéais e funções continuam surgindo!<br> </a>
 </details>
