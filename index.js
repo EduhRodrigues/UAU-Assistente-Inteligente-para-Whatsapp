@@ -22,7 +22,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   //Constantes Globais//
     
-    const FINALIZAR_PEDIDO="Digite *F* para *Finalizar seu Pedido*";
+    const FINALIZAR_PEDIDO="Digite *Deploy* para *Finalizar seu Pedido*";
     const VOLTAR_PARA_MENU="Digite *⓪* para *Voltar ao Menu*";
     const TRACEJADO="================================";
     const BR="                                                                                                             ";
