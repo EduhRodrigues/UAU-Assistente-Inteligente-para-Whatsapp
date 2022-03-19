@@ -83,7 +83,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       total_item1=total_item1+299.90*qtditem1;
     }
     
-    const BOT_MSG="*UAU!*: Aguardando 2º ítem do pedido.";
+    const BOT_MSG="vim do Deploy *UAU!*: Aguardando 2º ítem do pedido.";
     const PEDIDO_ADD="✓ _1º ítem adicionado com sucesso!_";
     const ADICIONAR_ITEM="Digite *A2* para *Adicionar o 2º ítem* do pedido";    
     const ITEM1="*0"+qtditem1+" " +item1+"*"+" R$ "+"*"+total_item1+"*";
@@ -109,7 +109,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const BR="                                                                                                             ";
     const LINHA_VAZIA ="̲                                                          ";
     const RECUO1= BR +LINHA_VAZIA +BR;
-    const LINK_MSG = "Este é o link do nosso Cardápio Interativo.";
+    const LINK_MSG = " VEIO DO dEPLOY! Este é o link do nosso Cardápio Interativo.";
     const CHOOSE_MSG = "*Abra* o cardápio. *Escolha*. Toque em *Pedir*."; 
     const OPTIONS_MSG= " Digite *⓪* para *Voltar ao Menu* "; 
 agent.add (+LINK_MSG +RECUO1 +LINK_CARDAPIO +RECUO1 +CHOOSE_MSG +OPTIONS_MSG);
@@ -132,7 +132,5 @@ agent.add (+LINK_MSG +RECUO1 +LINK_CARDAPIO +RECUO1 +CHOOSE_MSG +OPTIONS_MSG);
   intentMap.set('FinalizarPedido', FinalizarPedido);
   intentMap.set('Reservar', Reservar);
   intentMap.set('Cardapio', Cardapio);
-  // intentMap.set('your intent name here', yourFunctionHandler);
-  // intentMap.set('your intent name here', googleAssistantHandler);
   agent.handleRequest(intentMap);
 });
