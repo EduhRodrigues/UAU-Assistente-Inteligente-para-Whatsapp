@@ -2,7 +2,7 @@
 
 # Project: WOW! Intelligent Assistant <br> for Whatsapp 
 status: Developing <br>
-Click <a href="https://abre.ai/waw-assistente-inteligente">here</a> if you desire to test on Whatsapp.
+Check it out on <a href="https://abre.ai/waw-assistente-inteligente">Whatsapp</a><br>
 
 ###### <details><summary>``` O que é o UAU! Assistente Inteligente: ```</summary><br> Este projeto consiste em um agente de resposta automática por Whatsapp, com as seguintes funções:<br><br>Atender o Cliente: Dar as boas vindas e mostrar as opções;<br>Anotar o nome do cliente;<br>Anotar ítem do pedido: Ítem e quantidade na comanda;<br>Somar o valor do ítem;<br>Calcular o Pedido: Somar os valores dos ítens da comanda;<br>Obter dados para entrega: Endereço completo e Contato alternativo;<br>Confirmar o Pedido;<br>Formatar o Pedido estilo Cupom Fiscal;<br>Acompanhar a Entrega;<br>Finalizar Atendimento;<br>Pós Venda;<br>Localização por IP;<br>Endereço por CEP;<br>Novas idéais e funções continuam surgindo!<br> </a>
 </details>
