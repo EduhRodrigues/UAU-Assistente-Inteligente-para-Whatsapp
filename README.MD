@@ -1,6 +1,6 @@
 <img align="right" width="400" src="/index_image.jpg">
 
-# Project: WOW! - Whastsapp <br> Intelligent Assistant
+# Project: WOW! - Whatsapp <br> Intelligent Assistant
 status: Developing <br>
 Click <a href="https://abre.ai/waw-assistente-inteligente">here</a> if you desire to test on Whatsapp.
 
