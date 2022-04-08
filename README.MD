@@ -1,4 +1,4 @@
-<img align="right" width="auto" src="/index_image.jpg">
+<img align="right" width="400" src="/index_image.jpg">
 
 # Project: WOW! Whatsapp <br> Intelligent Assistant
 status: Developing <br>
