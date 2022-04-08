@@ -1,7 +1,8 @@
 <img align="right" width="400" src="/index_image.jpg">
 
 # Project: WOW! - Whastsapp <br> Intelligent Assistant
-status: Developing <br> 
+status: Developing <br>
+Click <a href="https://abre.ai/waw-assistente-inteligente">here</a> if you desire to test on Whatsapp.
 
 ###### <details><summary>``` O que é o UAU! Assistente Inteligente: ```</summary><br> Este projeto consiste em um agente de resposta automática por Whatsapp, com as seguintes funções:<br><br>Atender o Cliente: Dar as boas vindas e mostrar as opções;<br>Anotar o nome do cliente;<br>Anotar ítem do pedido: Ítem e quantidade na comanda;<br>Somar o valor do ítem;<br>Calcular o Pedido: Somar os valores dos ítens da comanda;<br>Obter dados para entrega: Endereço completo e Contato alternativo;<br>Confirmar o Pedido;<br>Formatar o Pedido estilo Cupom Fiscal;<br>Acompanhar a Entrega;<br>Finalizar Atendimento;<br>Pós Venda;<br>Localização por IP;<br>Endereço por CEP;<br>Novas idéais e funções continuam surgindo!<br> </a>
 </details>
@@ -26,5 +27,5 @@ status: Developing <br>
 ###### <details><summary>``` Deploy no Visualcode: ```</summary><br>1 - comando: firebase projects:list<br>Project Display Name │-----------Project ID   │ Project Number │ Resource Location ID<br>-------------wow-kaht │ wow-kaht (current) │ 455679832516   │ [Not specified]<br>2 - Copie o Project ID do protejo. Neste caso: wow-kaht (current)<br>3 - Entre no arquivo package.json e encontre:<br>"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"<br>4 - Adicione lá final, dentro das aspas, o seguinte:<br>--ProjectID<br>ProjectID é o que foi copiado anteriormente. Apenas cole, ou digite.<br>Neste caso fica assim:<br>"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project wow-kaht (current)"<br>5 - Salve o arquivo.<br>6 - comando: npm run deploy<br>PS C:\...\Project_Whats-WOW><br>Pronto. Deploy concluído com sucesso.<br>Para conferir, veja as alterações feitas no Visualcode alteradas<br>no Inline Editor do Dialogflow.<br>Se o deploy ocorreu com suceeso,<br>aparece uma URL no Webhook do Fulfillment, como esta:<br>https://us-central1-wow-kaht.cloudfunctions.net/dialogflowFirebaseFulfillment<br></a> 
 </details>
 
-Clique <a href="https://abre.ai/waw-assistente-inteligente"> aqui </a> para testar o assistente.
+
   
